@@ -6,4 +6,4 @@ def readconfig_file(section,key):
     return config.get(section,key)
 
 
-#print(readconfig_file('Links','Login_Url'))
+print(readconfig_file('Links','Login_Url'))
