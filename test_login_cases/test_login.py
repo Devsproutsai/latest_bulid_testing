@@ -68,6 +68,7 @@ class Test_Login_Cases():
       # Check if "Post new job" is present after login
       assert "Post new job" in self.driver.page_source, "Post new job not found after login"
 
+
       logout_menu = wait.until(expected_conditions.element_to_be_clickable((By.ID, "job?.id")))
       logout_menu.click()
 
